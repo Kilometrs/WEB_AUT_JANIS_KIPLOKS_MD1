@@ -18,7 +18,7 @@ describe("Demoqa scenarios", () => {
                 SelectablePage.gridContainerListElements.contains(element)
                     .should('not.have.class', 'active');
             });
-            
+
         });
     });
 });
